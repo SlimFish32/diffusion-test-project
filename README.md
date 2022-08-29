@@ -32,6 +32,12 @@ NOTE: this will install the Cuda 11.3 version of the library
 pip install -r requirements.txt --extra-index-url https://download.pytorch.org/whl/cu113
 ```
 
+After that, log-in in huggingface and create a new Access token
+
+```bash 
+huggingface-cli login
+```
+
 ## How to use
 
 Simply run the main script with the command
