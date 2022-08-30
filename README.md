@@ -21,7 +21,7 @@ In order to use this, it is recommended to use virtualenv and generate a virtual
 ```bash
 pip install virtualenv
 virtualenv local 
-sources local/Scripts/activate
+source local/Scripts/activate
 ```
 
 Once this is done, you need to install the dependencies of the project, a `requirements.txt` has been built to ease this task.
